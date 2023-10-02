@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+.header{
+    position: fixed;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    padding-top:3px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: transparent;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    z-index: 1;
+}
+.name a{
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar a{
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 15px  ;
+    justify-content: space-between;
+}
+.navbar a:hover{
+    border: 1px solid #fcfc;
+    display: inline-block;
+    text-align: center;
+    background-color: #fcfc;
+    color: black;
+    box-shadow: 0 0 10px #fcfc;  
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+/*  Project section   */
+.skill-container{
+    position: absolute;
+    top: 0px;
+    width: 98.5%;
+    height: 120vh;
+    background-color: #02152e;
+}
+.skill-container h2{
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    margin-top: 135px;
+    margin-bottom: 20px;
+}
+h2:hover{
+    font-size: 80px;
+    transition: 0.5s;
+    text-shadow:0 0 10px #fcfc;
+    transform: translateY(-10px);
+}
+.skill {
+    height: 450px;
+    width: 1200px;
+    position: relative;
+    top: 30px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skill-box {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 30px;
+    text-align: center;
+    background-color: #fcfc;
+    color: black;
+}
+.skill-box:hover{
+    border: 1px solid #fcfc;
+    display: inline-block;
+    text-align: center;
+    background-color: #fcfc;
+    color: black;
+    box-shadow: 0 0 20px #fcfc;  
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+.skill-box h3{
+    color: black;
+    margin-top: 25px;
+    font-size: 30px;
+}
+.skill-box p{
+    color: black;
+    margin-top: 30px;
+    font-size: 20px;                     
+}
+a{
+    text-decoration: none; 
+}

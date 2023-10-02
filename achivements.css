@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+.header{
+    position: fixed;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    padding-top:3px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: transparent;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    z-index: 1;
+}
+.name a{
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar a{
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 15px  ;
+    justify-content: space-between;
+}
+.navbar a:hover{
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;  
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+/* achivements */
+#section{
+    position: absolute;
+    top: 0px;
+    width: 98.5%;
+    height: 300vh;
+    background-color: #02152e;
+}
+.section-box {
+    height: 1000px; 
+    width: 1200px;
+    position: relative;
+    top: 30px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h2{
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+h2:hover{
+    font-size: 80px;
+    transition: 0.5s;
+    text-shadow:0 0 10px white;
+    transform: translateY(-10px);
+}
+#tcs{
+    height: 500px;
+    width: 500px;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+#hackton{
+    height: 500px;
+    width: 500px;
+    margin-left: 40px;
+    
+}
+#labkit{
+    height: 500px;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+#latex{
+    height: 500px;
+    width: 500px;
+    margin-left: 40px;
+}
+#nosql{
+    height: 500px;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+#labview{
+    height: 500px;
+    width: 500px;
+    margin-left: 40px;
+}
+.certificates img:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 20px white;
+}
